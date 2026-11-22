@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.git/
+.gitignore
+data/*.db*
+*.log
+.vscode/

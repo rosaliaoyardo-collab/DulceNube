@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+.vscode/
+.env
+# Base de datos local: se recrea sola con los datos de demostración
+data/*.db
+data/*.db-*
