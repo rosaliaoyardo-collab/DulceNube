@@ -1,0 +1,10 @@
+services:
+  dulcenube:
+    build: .
+    container_name: dulcenube
+    ports:
+      - "8080:8080"
+    volumes:
+      # La base SQLite vive en tu carpeta ./data y sobrevive al contenedor
+      - ./data:/app/data
+    restart: unless-stopped
